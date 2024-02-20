@@ -26,10 +26,10 @@ public class MysqlConnection {
         try {
             //Establishing a connection to a MySQL database hosted locally with the username “root” and password “root.” The database is named “sakila.”
             Connection con= DriverManager.getConnection("jdbc:mysql://localhost/CofeeShop","root","");
-            System.out.println(con);
+            //System.out.println(con);
             //Creating a statement object that can be used to execute SQL queries
             Statement stmt = con.createStatement();
-            String sql = "SELECT * FROM actor";
+            String sql = "SELECT * FROM users_cred";
             //Executing the SQL query and storing the result set in the rs variable
             ResultSet rs = stmt.executeQuery(sql);
 
