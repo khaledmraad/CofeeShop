@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab66ee20-142e-49b1-8fac-2b8d2db2b424" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/AlertBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/CofeeShop.kClXng.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/Dev_Agency.r4uCWg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49aaa111-b05d-4b53-a8a1-2819f94e7420/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/MysqlConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +140,7 @@
       <workItem from="1707854879248" duration="83000" />
       <workItem from="1708416564533" duration="96000" />
       <workItem from="1708418200079" duration="1292000" />
-      <workItem from="1708454448751" duration="8252000" />
+      <workItem from="1708454448751" duration="10103000" />
     </task>
     <servers />
   </component>
