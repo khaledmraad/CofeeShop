@@ -34,7 +34,7 @@
     </PasswordField>
     <Button fx:id="signinButton" onAction="#signIn"  layoutX="97.0" layoutY="355.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="128.0" text="Login"/>
     <Button layoutX="274.0" layoutY="355.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="128.0"
-            text="Create Accout"/>
+            text="Create Accout" fx:id="createAcnt" onAction="#redirect"/>
     <ImageView fitHeight="646.0" fitWidth="305.0" layoutX="499.0" pickOnBounds="true" preserveRatio="true">
         <image>
             <Image url="@download.jpeg"/>

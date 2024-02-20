@@ -3,9 +3,17 @@ package org.example.cofeeshop;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.fxml.FXMLLoader;
+import javafx.stage.Stage;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.Node;
+
 
 import java.sql.*;
 import java.util.Objects;
@@ -28,8 +36,13 @@ public class SignUpController {
     @FXML
     private Button signupButton;
 
+    private Stage stage;
+    private Scene scene;
+
+
+
     @FXML
-    protected void outputText() {
+    protected void outputText(ActionEvent event) {
         System.out.println("clicked");
         if (userNameField.getText().isEmpty()
                 || userEmailField.getText().isEmpty()
@@ -62,7 +75,9 @@ public class SignUpController {
             preparedStatement.executeUpdate();
 
             AlertBox.display("user pwned", "ur signup successfully ");
-
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = HomePage.homeScene(stage);
+            stage.setScene(scene);
         } catch (SQLException e) {
 
             printSQLException(e);

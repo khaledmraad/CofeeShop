@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab66ee20-142e-49b1-8fac-2b8d2db2b424" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -140,12 +143,23 @@
       <workItem from="1707854879248" duration="83000" />
       <workItem from="1708416564533" duration="96000" />
       <workItem from="1708418200079" duration="1292000" />
-      <workItem from="1708454448751" duration="10103000" />
+      <workItem from="1708454448751" duration="12661000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

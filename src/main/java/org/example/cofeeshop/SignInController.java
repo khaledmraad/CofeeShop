@@ -1,9 +1,16 @@
 package org.example.cofeeshop;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+import javafx.scene.Node;
 
+import java.io.IOException;
 import java.sql.*;
 
 public class SignInController {
@@ -21,9 +28,12 @@ public class SignInController {
     @FXML
     private TextField userPassField;
 
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
 
     @FXML
-    protected void signIn() {
+    protected void signIn(ActionEvent event) {
         if (userNameField.getText().isEmpty()
                 || userPassField.getText().isEmpty()) {
             AlertBox.display("im serieussss", "complete ur input bro");
@@ -49,6 +59,9 @@ public class SignInController {
 
             if (rs.next()){
                 AlertBox.display("congratss", "u exist");
+                stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+                scene = HomePage.homeScene(stage);
+                stage.setScene(scene);
 
             }
             else {
@@ -60,6 +73,16 @@ public class SignInController {
             e.printStackTrace();
         }
 
+
+    }
+
+    @FXML
+    protected void redirect(ActionEvent event) throws IOException {
+        Parent root= FXMLLoader.load(getClass().getResource("SignUpView.fxml"));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        scene=new Scene(root);
+        stage.setScene(scene);
+        stage.show();
 
     }
 
