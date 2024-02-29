@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="mysql" reUseTableSchema="true">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="d137633a-94bf-4ae2-b29c-c52739b6706a__CoffeeShop" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/org/Domain" />
+  </component>
+</project>
