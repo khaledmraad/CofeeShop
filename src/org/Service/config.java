@@ -18,7 +18,7 @@ public class config {
     public config(){
 
         Configuration cfg=new Configuration();
-        cfg.configure("resourcesss/hibernate.cfg.xml");
+        cfg.configure("hibernate.cfg.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         System.out.println("jcnsdkjcsdkjn");
         session = factory.openSession(); //hibernate which has no module descriptor but it requires java.naming
