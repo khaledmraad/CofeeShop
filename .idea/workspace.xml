@@ -4,36 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab66ee20-142e-49b1-8fac-2b8d2db2b424" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/DAO/userDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Domain/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="14ecb332-396a-415e-9948-2ca9e596733c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cofeeshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/CofeeShop.kClXng.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/Dev_Agency.r4uCWg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f9f8621-9957-4f43-b503-b968e7f8f9d3/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/mysql-connector-j-8.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/CoffeeShop.AkVoYg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/preMalone.kcL6hw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/DAO/userDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Domain/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/AlertBox.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/HomePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/Main.java" beforeDir="false" />
@@ -42,53 +42,18 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInViewLoader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpViewLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/download.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/download.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/download.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="JavaFXApplication" />
-        <option value="com.haulmont.jpb.JpaEntity" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1707520345" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1707520344" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,66 +66,63 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2c94qhGcBrfpCNXaM1znyuMbF4J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2d6Y0rmXErbfLK6P1zM8FTSR924" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MysqlConnection.executor": "Run",
-    "Application.SignInViewLoader.executor": "Run",
-    "Application.SignUpViewLoader.executor": "Run",
-    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gojo/the_fkin_aspect_compiler_jar/mysql-connector-j-8.3.0.jar",
+    "last_opened_file_path": "/home/gojo/projects/CofeeShop/cofeeshop/lib/txw2-4.0.2.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb",
-      "mysql"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop" />
-      <recent name="$PROJECT_DIR$/bin" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/cofeeshop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/Service" />
-      <recent name="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop" />
-      <recent name="$PROJECT_DIR$/src/main/resources/org/example" />
-      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.example" />
-      <recent name="org.example.cofeeshop" />
-    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.View.Main" />
+      <module name="cofeeshop" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/tmpwar/javafx-sdk-21.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cofeeshop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cofeeshop" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -172,52 +134,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab66ee20-142e-49b1-8fac-2b8d2db2b424" name="Changes" comment="" />
-      <created>1707510654004</created>
+      <changelist id="14ecb332-396a-415e-9948-2ca9e596733c" name="Changes" comment="" />
+      <created>1709329774446</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707510654004</updated>
-      <workItem from="1707510655067" duration="1000" />
-      <workItem from="1707511564587" duration="8104000" />
-      <workItem from="1707520824630" duration="6000" />
-      <workItem from="1707555357274" duration="664000" />
-      <workItem from="1707730001083" duration="50000" />
-      <workItem from="1707732390220" duration="313000" />
-      <workItem from="1707854879248" duration="83000" />
-      <workItem from="1708416564533" duration="96000" />
-      <workItem from="1708418200079" duration="1292000" />
-      <workItem from="1708454448751" duration="12884000" />
-      <workItem from="1708603764959" duration="1050000" />
-      <workItem from="1708932845934" duration="177000" />
-      <workItem from="1708951040230" duration="56000" />
-      <workItem from="1708951155326" duration="716000" />
-      <workItem from="1709201227231" duration="158000" />
-      <workItem from="1709201719144" duration="9000" />
-      <workItem from="1709201753477" duration="29000" />
-      <workItem from="1709201796310" duration="2000" />
-      <workItem from="1709203783641" duration="9000" />
-      <workItem from="1709203964240" duration="49000" />
-      <workItem from="1709219264067" duration="2947000" />
-      <workItem from="1709226977026" duration="4090000" />
+      <updated>1709329774446</updated>
+      <workItem from="1709329775494" duration="112000" />
+      <workItem from="1709329950351" duration="85000" />
+      <workItem from="1709330046033" duration="42000" />
+      <workItem from="1709330111252" duration="46000" />
+      <workItem from="1709330203185" duration="382000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
