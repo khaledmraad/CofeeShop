@@ -5,7 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ecb332-396a-415e-9948-2ca9e596733c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/angus_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cofeeshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/angus-activation-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr4-runtime-4.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.14.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-6.0.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-6.4.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.activation-api-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.inject-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.persistence-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.transaction-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.xml.bind-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-3.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-core-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.5.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/DAO/userDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Domain/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Service/config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Service/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/AlertBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/MysqlConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/SignInController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/SignInViewLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/SignUpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/View/SignUpViewLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
@@ -17,12 +59,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/preMalone.kcL6hw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d137633a-94bf-4ae2-b29c-c52739b6706a/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
@@ -30,22 +71,22 @@
       <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/DAO/userDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Domain/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/AlertBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/MysqlConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInViewLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpViewLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/DAO/userDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/DAO/userDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Domain/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Domain/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Service/config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Service/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Service/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/AlertBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/AlertBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/MysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignInViewLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/SignInViewLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cofeeshop/SignUpViewLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/View/SignUpViewLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourcesss/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignInView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourcesss/SignInView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/SignUpView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourcesss/SignUpView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/cofeeshop/download.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourcesss/download.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +117,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SignInViewLoader.executor": "Run",
+    "Application.SignUpViewLoader.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "aspect.path.notification.shown": "true",
@@ -101,9 +146,25 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SignInViewLoader">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.View.Main" />
+      <module name="cofeeshop" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/tmpwar/javafx-sdk-21.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInViewLoader" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.View.SignInViewLoader" />
+      <module name="cofeeshop" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/tmpwar/javafx-sdk-21.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpViewLoader" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.View.SignUpViewLoader" />
       <module name="cofeeshop" />
       <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/tmpwar/javafx-sdk-21.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <method v="2">
@@ -123,6 +184,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SignUpViewLoader" />
+      <item itemvalue="Application.SignInViewLoader" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -143,7 +209,7 @@
       <workItem from="1709329950351" duration="85000" />
       <workItem from="1709330046033" duration="42000" />
       <workItem from="1709330111252" duration="46000" />
-      <workItem from="1709330203185" duration="382000" />
+      <workItem from="1709330203185" duration="757000" />
     </task>
     <servers />
   </component>
