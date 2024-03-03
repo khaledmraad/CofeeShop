@@ -20,9 +20,8 @@ public class config {
         Configuration cfg=new Configuration();
         cfg.configure("hibernate.cfg.xml");
         SessionFactory factory = cfg.buildSessionFactory();
-        System.out.println("jcnsdkjcsdkjn");
         session = factory.openSession(); //hibernate which has no module descriptor but it requires java.naming
-        System.out.println("noice");
+
 
 
     }

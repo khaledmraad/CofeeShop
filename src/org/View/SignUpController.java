@@ -7,6 +7,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.DAO.userDAO;
+import org.Domain.user;
+import org.Service.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,10 +18,9 @@ import java.sql.SQLException;
 import java.util.Objects;
 
 public class SignUpController {
-    private static final String db_url = "jdbc:mysql://localhost:3306/CofeeShop";
-    private static final String db_username = "root";
-    private static final String db_password = "";
-    private static final String insert_query = "INSERT INTO users_cred (name, email, password) VALUES (?, ?, ?)";
+
+    config c=new config();
+
 
     @FXML
     private TextField userNameField;
@@ -54,49 +56,33 @@ public class SignUpController {
         String userConfirmPass = userConfirmPassField.getText();
 
         if (!Objects.equals(userPass, userConfirmPass)) {
-            AlertBox.display("ru blind?xd", "password dont match the confirm password");
+            AlertBox.display("BRO??", "password dont match the confirm password");
             return;
         }
 
-        try (Connection connection = DriverManager
-                .getConnection(db_url, db_username, db_password);
-
-             PreparedStatement preparedStatement = connection.prepareStatement(insert_query)) {
-            preparedStatement.setString(1, userName);
-            preparedStatement.setString(2, userEmail);
-            preparedStatement.setString(3, userPass);
-
-            System.out.println(preparedStatement);
-
-            preparedStatement.executeUpdate();
-
-            AlertBox.display("user pwned", "ur signup successfully ");
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = HomePage.homeScene(stage);
-            stage.setScene(scene);
-        } catch (SQLException e) {
-
-            printSQLException(e);
+        if (userDAO.userExist(userName,userEmail,userPass)) {
+            AlertBox.display("user already pwned", "change smth to signup");
+            return;
         }
+
+        user u=new user(userName,userEmail,userPass);
+
+        userDAO uDao=new userDAO(u);
+
+        c.getSession().beginTransaction();
+
+        uDao.CreateU();
+
+        c.getSession().getTransaction().commit();
+
+        AlertBox.display("user pwned", "ur signup successfully ");
+
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = HomePage.homeScene(stage);
+        stage.setScene(scene);
 
 
     }
 
 
-    public static void printSQLException(SQLException ex) {
-        for (Throwable e : ex) {
-            if (e instanceof SQLException) {
-                e.printStackTrace(System.err);
-                System.err.println("SQLState: " + ((SQLException) e).getSQLState());
-                System.err.println("Error Code: " + ((SQLException) e).getErrorCode());
-                System.err.println("Message: " + e.getMessage());
-                Throwable t = ex.getCause();
-                while (t != null) {
-                    System.out.println("Cause: " + t);
-                    t = t.getCause();
-                }
-            }
-        }
-
-    }
 }

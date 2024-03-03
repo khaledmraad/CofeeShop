@@ -12,7 +12,7 @@ public class SignUpViewLoader extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SignInViewLoader.class.getResource("../../resourcesss/SignUpView.fxml"));
         if (fxmlLoader.getLocation() == null) {
-            System.err.println("FXML file not found!");
+            System.err.println("file dont exist");
             return;
         }
         Scene scene = new Scene(fxmlLoader.load(), 804, 553);

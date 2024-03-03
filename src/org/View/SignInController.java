@@ -9,16 +9,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.DAO.userDAO;
 
 import java.io.IOException;
 import java.sql.*;
 
 public class SignInController {
-
-    private static final String db_url = "jdbc:mysql://localhost:3306/CofeeShop";
-    private static final String db_username = "root";
-    private static final String db_password = "";
-    private static final String select_query = "SELECT * FROM users_cred WHERE name=? AND password=?";
 
     @FXML
     private Label welcomeText;
@@ -43,36 +39,18 @@ public class SignInController {
         String userName = userNameField.getText();
         String userPass = userPassField.getText();
 
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            System.out.println("Drivers loaded!");
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+        if (!userDAO.userExist(userName,userPass)){
+            AlertBox.display("NO NO NO NO", "go signup pls");
         }
 
-        try {
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost/CofeeShop","root","");
-            Statement stmt = con.createStatement();
-            String sql = "SELECT * FROM users_cred WHERE name='"+userName+"' AND password='"+userPass+"'";
-            ResultSet rs = stmt.executeQuery(sql);
+        else{
+            AlertBox.display("UR logged in ", "enter to best coffeeshop ever ");
 
-            if (rs.next()){
-                AlertBox.display("congratss", "u exist");
-                stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-                scene = HomePage.homeScene(stage);
-                stage.setScene(scene);
-
-            }
-            else {
-                AlertBox.display("XD", "u dont exist");
-
-            }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = HomePage.homeScene(stage);
+            stage.setScene(scene);
         }
-
 
     }
 
