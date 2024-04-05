@@ -2,7 +2,9 @@ package org.View;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -11,6 +13,7 @@ import org.DAO.userDAO;
 import org.Domain.user;
 import org.Service.config;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -40,7 +43,7 @@ public class SignUpController {
 
 
     @FXML
-    protected void outputText(ActionEvent event) {
+    protected void outputText(ActionEvent event) throws IOException {
         System.out.println("clicked");
         if (userNameField.getText().isEmpty()
                 || userEmailField.getText().isEmpty()
@@ -77,9 +80,11 @@ public class SignUpController {
 
         AlertBox.display("user pwned", "ur signup successfully ");
 
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = HomePage.homeScene(stage);
+        Parent root= FXMLLoader.load(getClass().getResource("../../resourcesss/HomePage.fxml"));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        scene=new Scene(root);
         stage.setScene(scene);
+        stage.show();
 
 
     }

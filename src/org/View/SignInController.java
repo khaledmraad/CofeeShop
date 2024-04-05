@@ -29,7 +29,7 @@ public class SignInController {
     private Parent root;
 
     @FXML
-    protected void signIn(ActionEvent event) {
+    protected void signIn(ActionEvent event) throws IOException {
         if (userNameField.getText().isEmpty()
                 || userPassField.getText().isEmpty()) {
             AlertBox.display("im serieussss", "complete ur input bro");
@@ -47,9 +47,15 @@ public class SignInController {
         else{
             AlertBox.display("UR logged in ", "enter to best coffeeshop ever ");
 
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = HomePage.homeScene(stage);
+//            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+//            scene = HomePage.homeScene(stage);
+//            stage.setScene(scene);
+
+            Parent root= FXMLLoader.load(getClass().getResource("../../resourcesss/HomePage.fxml"));
+            stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+            scene=new Scene(root);
             stage.setScene(scene);
+            stage.show();
         }
 
     }
